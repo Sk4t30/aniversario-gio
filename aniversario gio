@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Romântico</title>
+    <style>
+        /* Estilo da tela inicial */
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #000000;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ffffff;
+        }
+
+        button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            background-color: #33ff00;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #000000;
+        }
+
+        /* Estilo da segunda aba */
+        .content {
+            text-align: center;
+            background-color: #f7f7f7;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #d6336c;
+            position: fixed;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img {
+            width: 60%;
+            margin-top: 10%;
+            border-radius: 15px;
+        }
+
+        audio {
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tela Inicial -->
+    <div id="inicio">
+    </strong><h1>Feliz aniversario!!!!</h1><strong></strong>
+        <button onclick="window.location.href='segunda-aba.html'">Clique aqui!</button>
+    </div>
+</body>
+</html>
