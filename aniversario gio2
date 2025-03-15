@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Aba - Romântica</title>
+    <style>
+        /* Estilo da segunda aba */
+        .content {
+            text-align: center;
+            background-color: #f7f7f7;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #d6336c;
+            position: fixed;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        img {
+            width: 60%;
+            margin-top: 10%;
+            border-radius: 15px;
+        }
+
+        audio {
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+    </style>
+</head>
+<body class="content">
+    <!-- Música de fundo -->
+    <audio autoplay loop>
+        <source src="sua-musica.mp3" type="audio/mp3">
+        Seu navegador não suporta o formato de áudio.
+    </audio>
+
+    <!-- Foto romântica -->
+    <img src="sua-imagem.jpg" alt="Imagem romântica">
+
+    <!-- Frase romântica -->
+    <h2>Sua frase aqui</h2>
+</body>
+</html>
